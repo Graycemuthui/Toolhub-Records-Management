@@ -88,9 +88,11 @@
   background-color: #3da58a;
 }
 
-.canvas {
-  border: 1px solid;
+.chart {
+  display: inline-block;
   position: relative;
+  border: 1px solid;
+  height: 20vh;
 }
 @media (max-width: 768px) {
   .dashboard {

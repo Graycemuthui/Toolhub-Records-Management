@@ -162,3 +162,15 @@ export const records = [
     edits: 0,
   },
 ];
+
+export default function checkPercentage(records) {
+  let missingAge = 0;
+  let totalRecords = records.length;
+  for (let i = 0; i < records.length; i++) {
+    if (records[i].age === undefined) {
+      missingAge++;
+    }
+  }
+  let percentage = (missingAge / totalRecords) * 100;
+  return percentage;
+}

@@ -27,6 +27,10 @@ const data = {
         "rgba(75, 192, 192, 1)",
       ],
       data: [records.length, notEdited.length, edited.length, missing.length],
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+      },
     },
   ],
 };

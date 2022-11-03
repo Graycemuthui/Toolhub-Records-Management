@@ -6,6 +6,7 @@ import Missing from "./Missing/Missing";
 import Edited from "./Edited/Edited";
 import DashboardNav from "./DashboardNav/DashboardNav";
 import Piechart from "./Charts/Piechart";
+import Percentage from "./Charts/Percentage";
 
 const Dashboard = () => {
   return (
@@ -15,7 +16,10 @@ const Dashboard = () => {
         <Total data={records} />
         <Missing data={records} />
         <Edited data={records} />
-        <Piechart style={{ position: "relative", height: "100px" }} />
+        <div className="chart">
+          <Piechart />
+        </div>
+        <Percentage />
       </div>
     </div>
   );
