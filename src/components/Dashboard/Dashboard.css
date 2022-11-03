@@ -88,6 +88,10 @@
   background-color: #3da58a;
 }
 
+.canvas {
+  border: 1px solid;
+  position: relative;
+}
 @media (max-width: 768px) {
   .dashboard {
     width: 100%;

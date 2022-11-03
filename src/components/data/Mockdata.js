@@ -82,6 +82,7 @@ export const records = [
   },
   {
     id: 10,
+    age: "",
     name: "Kiana Holcomb",
     email: "kiana@gmail.com",
     phone: "(421)314-2288",
@@ -90,6 +91,7 @@ export const records = [
   },
   {
     id: 11,
+    age: "",
     name: "Grayce Muthui",
     email: "graycemuthui20@gmail.com",
     phone: "(901)314-2288",
@@ -98,6 +100,7 @@ export const records = [
   },
   {
     id: 12,
+    age: "",
     name: "Kamau Moii",
     email: "kamau@gmail.com",
     phone: "(421)316-2789",
@@ -106,6 +109,7 @@ export const records = [
   },
   {
     id: 13,
+    age: "",
     name: "Mike Jos",
     email: "mike@gmail.com",
     phone: "(221)309-2678",
@@ -141,6 +145,7 @@ export const records = [
   },
   {
     id: 17,
+    age: "",
     name: "Shaq Deff",
     email: "shaq@gmail.com",
     phone: "(445)445-1249",
@@ -149,6 +154,7 @@ export const records = [
   },
   {
     id: 18,
+    age: "",
     name: "Sandy Mutinda",
     email: "sandy@gmail.com",
     phone: "(341)235-1163",
