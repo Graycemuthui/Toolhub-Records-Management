@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Leaderboard render correctly 1`] = `
+<div
+  className="p-5 container"
+>
+  <table
+    className="table table-dark table-sm table-striped table-bordered table-hover"
+  >
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Edits
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <p>
+            Bright Kweku
+          </p>
+        </td>
+        <td>
+          <p>
+            34
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            Ever Melisandre
+          </p>
+        </td>
+        <td>
+          <p>
+            29
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            Grayce Muthui
+          </p>
+        </td>
+        <td>
+          <p>
+            24
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            Shaq Deff
+          </p>
+        </td>
+        <td>
+          <p>
+            24
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            Kiana Holcomb
+          </p>
+        </td>
+        <td>
+          <p>
+            14
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            Kamau Moii
+          </p>
+        </td>
+        <td>
+          <p>
+            4
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            Kofi Bright
+          </p>
+        </td>
+        <td>
+          <p>
+            4
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            Jaime Lannister
+          </p>
+        </td>
+        <td>
+          <p>
+            3
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            Daenerys Targaryen
+          </p>
+        </td>
+        <td>
+          <p>
+            2
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

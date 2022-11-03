@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard render correctly 1`] = `
+<canvas
+  height={150}
+  role="img"
+  width={300}
+/>
+`;
+
+exports[`Piechart render correctly 1`] = `
+<canvas
+  height={150}
+  role="img"
+  width={300}
+/>
+`;
