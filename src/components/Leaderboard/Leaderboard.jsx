@@ -14,7 +14,7 @@ const Leaderboard = () => {
   const nonZeroFilters = filters.filter((filter) => filter.edits > 0);
   return (
     <Container className="p-5">
-      <Table striped bordered hover size="sm">
+      <Table striped bordered hover variant="dark" size="sm">
         <thead>
           <tr>
             <th>Name</th>

@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { records } from "../data/Mockdata";
 import Form from "react-bootstrap/Form";
+import { Link } from "react-router-dom";
 import "./Homepage.css";
 
 const Homepage = () => {
   const [search, setSearch] = useState("");
-  const [userValue, setUserValue] = useState("");
-  const [useresult, setUseresult] = useState([]);
 
   return (
     <div className="homepage">
@@ -26,12 +25,28 @@ const Homepage = () => {
           <Form.Control
             type="text"
             placeholder="Enters tool"
-            onChange={(e) => setUserValue(e.target.value)}
+            onChange={(e) => setSearch(e.target.value)}
           />
         </Form.Group>
 
         <div className="head">
-          <h3>Toolhub Records</h3>
+          {records
+            .filter((record) => {
+              if (search === "") {
+                return;
+              } else if (
+                record.name
+                  .toLocaleLowerCase()
+                  .includes(search.toLocaleLowerCase())
+              ) {
+                return record;
+              }
+            })
+            ?.map((record, i) => (
+              <Link to="/dashboard" key={i}>
+                {record.name}
+              </Link>
+            ))}
         </div>
       </Form>
     </div>
