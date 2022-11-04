@@ -6,7 +6,7 @@ This is a management tool that is used to store records. It holds the total numb
 
 - Major languages : JavaScript , JSX and CSS
 - Toolchain : `Babel`
-- Library and Framework : `React, React-redux, Jest, React-test-renderer`
+- Library and Framework : `React, Jest, React-test-renderer`
 - Technologies used : Github, Git, Gitflow and Linters
 
 ## Live Demo
