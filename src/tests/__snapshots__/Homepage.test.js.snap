@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage render correctly 1`] = `
+<div
+  className="homepage"
+>
+  <h1
+    className="heading"
+  >
+     Toolhub Records
+  </h1>
+  <p
+    className="home-para"
+  >
+     Welcome to Toolhub Records
+  </p>
+  <p>
+    Toolhub Records is a tool that one can be able to search for various tools, add tools and edit tools. It has a representation of all users that have engeaged with it and one can be able to access the total amount of records, missing records and edited records. A chart has been used for visual representation to view the accessible data.
+  </p>
+  <form
+    className="form"
+  >
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+        htmlFor="formBasicEmail"
+      >
+        Search for a tool by name :
+      </label>
+      <input
+        className="form-control"
+        id="formBasicEmail"
+        onChange={[Function]}
+        placeholder="Enters tool"
+        type="text"
+      />
+    </div>
+    <div
+      className="head"
+    />
+  </form>
+</div>
+`;

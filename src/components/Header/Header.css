@@ -1,0 +1,104 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0;
+  min-width: 100%;
+  z-index: 999;
+  box-sizing: border-box;
+}
+
+.stickyNav {
+  position: fixed;
+  width: 100%;
+  background-color: #3e4396;
+  transition: all 0.3s ease-in-out;
+  top: 0;
+  color: #ffff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.toggler {
+  margin-right: 2rem;
+}
+
+.nav-settings {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.menu,
+.user {
+  display: none;
+}
+
+.image {
+  width: 300px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    justify-content: space-between;
+    padding: 1rem 0;
+    background-color: #3e4396;
+    color: #ffff;
+    width: 100%;
+  }
+
+  .menu,
+  .user {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: -1000%;
+    background-color: #3e4396;
+    width: 100%;
+    height: max-content;
+    z-index: 99;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .nav-links-toggle {
+    top: 3rem;
+  }
+
+  .nav-settings button {
+    display: none;
+  }
+
+  .user {
+    margin-right: 4rem;
+  }
+
+  .nav-settings {
+    gap: 1.5rem;
+  }
+
+  .toggler {
+    margin: 0;
+  }
+}
