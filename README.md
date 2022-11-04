@@ -1,6 +1,6 @@
 # Toolhub Records Management
 
-This is a collection of tools for managing records in the Toolhub.
+This is a management tool that is used to store records. It holds the total number of records, edited records and missing records. One can be able to search for a tool by name and the data has also been represented with a pie chart. It consists of a Homepage, Dashboard and Leaderboard.
 
 ## Built With
 
