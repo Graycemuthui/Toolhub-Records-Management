@@ -5,6 +5,7 @@ import { FiSettings } from "react-icons/fi";
 import { CiDark } from "react-icons/ci";
 import { AiOutlineMenu } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
+import logo from "./toolhub-logo.png";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -30,7 +31,7 @@ const Header = () => {
   return (
     <nav className={sticky === "#" ? `stickyNav` : ""}>
       <div className="nav-logo">
-        <h2>Logo</h2>
+        <img src={logo} alt="logo" className="image" />
       </div>
       <div className={`nav-links ${active ? `nav-links-toggle` : ""}`}>
         <Link to="/" onClick={() => setActive(!active)}>
