@@ -91,6 +91,12 @@
 .chart {
   width: 400px !important;
   height: 400px !important;
+  display: flex;
+  border: 1px solid black;
+}
+
+.charts {
+  display: flex;
 }
 
 @media (max-width: 768px) {

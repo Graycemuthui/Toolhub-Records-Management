@@ -16,11 +16,13 @@ const Dashboard = () => {
         <Total data={records} />
         <Missing data={records} />
         <Edited data={records} />
-        <div className="chart">
-          <Piechart />
-        </div>
-        <div className="chart">
-          <Percentage />
+        <div className="charts">
+          <div className="chart">
+            <Piechart />
+          </div>
+          <div className="chart">
+            <Percentage />
+          </div>
         </div>
       </div>
     </div>
