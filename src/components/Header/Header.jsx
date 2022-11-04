@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <nav className={sticky === "#" ? `stickyNav` : ""}>
       <div className="nav-logo">
-        <img src={logo} alt="logo" className="image" />
+        <img src={logo} alt="logo" />
       </div>
       <div className={`nav-links ${active ? `nav-links-toggle` : ""}`}>
         <Link to="/" onClick={() => setActive(!active)}>

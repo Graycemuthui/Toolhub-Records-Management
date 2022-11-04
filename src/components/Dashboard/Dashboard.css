@@ -138,4 +138,17 @@
   .mb {
     display: block;
   }
+
+  .charts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .chart {
+    width: 200px !important;
+    height: 200px !important;
+    border: none;
+  }
 }

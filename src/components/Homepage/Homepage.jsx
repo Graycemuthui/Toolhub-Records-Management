@@ -31,8 +31,10 @@ const Homepage = () => {
 
         <div className="head">
           {records
+            // eslint-disable-next-line
             .filter((record) => {
               if (search === "") {
+                // eslint-disable-next-line
                 return;
               } else if (
                 record.name
