@@ -89,11 +89,10 @@
 }
 
 .chart {
-  display: inline-block;
-  position: relative;
-  border: 1px solid;
-  height: 20vh;
+  width: 400px !important;
+  height: 400px !important;
 }
+
 @media (max-width: 768px) {
   .dashboard {
     width: 100%;

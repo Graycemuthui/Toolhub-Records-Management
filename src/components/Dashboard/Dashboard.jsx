@@ -19,7 +19,9 @@ const Dashboard = () => {
         <div className="chart">
           <Piechart />
         </div>
-        <Percentage />
+        <div className="chart">
+          <Percentage />
+        </div>
       </div>
     </div>
   );
