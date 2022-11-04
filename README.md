@@ -11,7 +11,7 @@ This is a collection of tools for managing records in the Toolhub.
 
 ## Live Demo
 
-- Here is a live demo [link](https://relaxed-sfogliatella-15fbe6.netlify.app/)
+- Here is a live demo [link](https://tools-hub-records.netlify.app/)
 
 ## Getting Started
 
