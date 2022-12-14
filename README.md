@@ -11,7 +11,7 @@ This is a management tool that is used to store records. It holds the total numb
 
 ## Live Demo
 
-- Here is a live demo [link](https://resonant-daifuku-20a3af.netlify.app/)
+- Here is a live demo [link](https://phenomenal-rugelach-32e5ff.netlify.app/)
 
 ## Getting Started
 
